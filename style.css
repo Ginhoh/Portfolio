@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.foto{
+    text-align: center;
+    margin-top: 5%;
+}
+.foto img{
+    width: 200px; height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid aqua;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px aqua;
+
+}
+
+.cabecalho{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;   
+}
+.cabecalho a{
+    color: white;
+    margin-inline: 50px; 
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    color: aqua;
+}
+
+.sb, .pj{
+    color: antiquewhite;
+    margin-left: 30px ;
+    margin-right: 40%;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pj h5{
+    color: white;
+    font-size: 20px;
+}
+.pj a:hover{
+    color: yellow;
+}
+.pj a{
+    color: aqua;
+}
+.pj img{
+    width: 30px; height: 30px;
+    border-radius: none;
+    border: none;
+    text-align: start;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px aqua;
+}
+h6{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    margin-top: -20px;
+    text-shadow: 1px 1px 2px aqua;
+}
+h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 150px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px aqua;
+}
+.contato-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 50px;
+}
+.contato-container a{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.contato-container img{
+    width: 20px; height: 20px;
+}
+.ct1, .ct2, .ct3, .ct4{
+    display: flex;
+}
